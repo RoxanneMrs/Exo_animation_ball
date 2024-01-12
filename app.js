@@ -25,7 +25,7 @@ $(document).ready(function () {
     function circleOnClick(x, y) {
         div = $("<div>").html("")
         $("body").append(div); // ajout de la div au body
-        a = 50 + Math.floor(Math.random() * 100); // taille aléatoire de la boule
+        a = 100 + Math.floor(Math.random() * 100); // taille aléatoire de la boule
 
         // css de la boule
         div.css({
